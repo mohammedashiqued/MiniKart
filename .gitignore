@@ -2,7 +2,10 @@
 __pycache__/
 *.py[codz]
 *$py.class
-.migrations/
+
+#Ignore all django migrations
+**/migrations/*
+!**/migrations/__init__.py
 # C extensions
 *.so
 
@@ -151,6 +154,7 @@ activemq-data/
 
 # Environments
 .env
+*.env
 .envrc
 .venv
 env/
