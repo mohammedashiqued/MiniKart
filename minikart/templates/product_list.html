@@ -1,0 +1,244 @@
+{% load static %}
+
+<div class="small container">
+  <!--we have create an another row to add title and give user dropdown list with four options so they can select what they want-->
+  <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+      <option>Default Sorting</option>
+      <option>Sort by Price</option>
+      <option>Sort by Popularity</option>
+      <option>Sort by Sale</option>
+    </select>
+  </div>
+
+  <!--This is the same class which already have index.html consisting of 4 columns-->
+  <div class="row">
+    <!--this time we will make 4 columns-->
+
+    <!--it contains 4 different products with heading h4, image, price <p> and rating star-->
+    <div class="col-4">
+      <img src="{% static 'Images/product-1.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-2.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4> 
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-3.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-4.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+  </div>
+
+  <!--above are the products of featured prodcuts row, as the page is for all products, so I have added latest products row too here  -->
+
+  <div class="row">
+    <!--this time we will make 4 columns-->
+
+    <!--it contains 4 different products with heading h4, image, price <p> and rating star-->
+    <div class="col-4">
+      <img src="{% static 'Images/product-5.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-6.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-7.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-8.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="{% static 'Images/product-9.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-10.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-11.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+
+    <div class="col-4">
+      <img src="{% static 'Images/product-12.jpg' %}"/><!--product img-->
+      <h4>Red Printed T-shirt</h4>
+      <!--product title-->
+      <div class="rating">
+        <!--add stars for rating of product from font awesome 4-->
+        <i class="fa fa-star" aria-hidden="true"></i
+        ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p>$50.00</p>
+      <!--product price-->
+    </div>
+  </div>
+
+  
+  <!--add page buttons in small container section-->
+  <div class="page-btn">
+    <span>1</span
+    ><!--no of pages-->
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>→</span
+    ><!--and arrow in the end-->
+  </div>
+</div>

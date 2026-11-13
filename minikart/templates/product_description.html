@@ -1,0 +1,67 @@
+{% load static %}
+
+<div class="small-container single-product">
+  <div class="row">
+    <!--we have created 2 columns, one for the image and other for the text
+            related to an image-->
+
+    <div class="col-2">
+      <img
+        src="{% static 'images/gallery-1.jpg' %}"
+        width="100%"
+        id="product-img"
+      /><!--id in bigger image so we can replace with its variants, so when we click on its different angle, it will show in large picture using JS-->
+
+      <div class="small-img-row">
+        <div class="small-img-col">
+          <img
+            src="{% static 'images/gallery-1.jpg' %}"
+            width="100%"
+            class="small-img"
+          /><!--using class in all 4 small pictures so we can use them in JS and when we click on it, it show in larger picture-->
+        </div>
+
+        <div class="small-img-col">
+          <img src="{% static 'images/gallery-2.jpg' %}" width="100%" class="small-img" />
+        </div>
+
+        <div class="small-img-col">
+          <img src="{% static 'images/gallery-3.jpg' %}" width="100%" class="small-img" />
+        </div>
+
+        <div class="small-img-col">
+          <img src="{% static 'images/gallery-4.jpg' %}" width="100%" class="small-img" />
+        </div>
+      </div>
+    </div>
+
+    <!--column related to the text of single product-->
+    <div class="col-2">
+      <p>Home/ T-Shirt</p>
+      <h1>Red Printed T-Shirt by HRX</h1>
+      <h4>$50.00</h4>
+
+      <!--sizes selection-->
+      <select>
+        <option>Select Size</option>
+        <option>XXL</option>
+        <option>XL</option>
+        <option>Large</option>
+        <option>Medium</option>
+        <option>Small</option>
+      </select>
+
+      <!--no of products-->
+      <input type="number" value="1" />
+      <a href="" class="btn">Add To Cart</a
+      ><!--add to cart button-->
+      <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+      <br />
+      <p>
+        Give Your summer wardrobe a style upgrade with the HTX Men's Active
+        T-shirt. Team it with a pair of shorts for your morning Workout or a
+        denims for an evening out with the guys.
+      </p>
+    </div>
+  </div>
+</div>
